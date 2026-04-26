@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FAF8F2;
+  --color-cream-deep: #F2EFE4;
+  --color-ink: #1a1a1a;
+  --color-warm-grey: #6b6357;
+  --color-warm-grey-light: #9a9388;
+  --color-rule: #d9d3c2;
+  --color-cricket-green: #2D5A3D;
+  --color-leather: #8B6914;
+  --color-pavilion-red: #8B3A3A;
+  --color-faded-navy: #2D3A5A;
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-serif: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-serif);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-image:
+    radial-gradient(rgba(139, 105, 20, 0.025) 1px, transparent 1px);
+  background-size: 3px 3px;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+}
+
+a {
+  color: var(--color-cricket-green);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-cricket-green) 30%, transparent);
+  transition: border-color 120ms ease;
+}
+
+a:hover {
+  border-bottom-color: var(--color-cricket-green);
+}
+
+a.plain {
+  border-bottom: none;
+}
+
+.rule {
+  border-top: 1px solid var(--color-rule);
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-warm-grey);
+}
+
+.small-caps {
+  font-variant-caps: small-caps;
+  letter-spacing: 0.04em;
+}
+
+.ext::after {
+  content: " ↗";
+  font-size: 0.85em;
+  color: var(--color-warm-grey);
+}
+
+.dot-active {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background-color: var(--color-cricket-green);
+  vertical-align: middle;
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--color-cricket-green) 20%, transparent);
+}
