@@ -7,7 +7,7 @@
       "dissolved": 1913,
       "founder": "J.M. Barrie",
       "type": "writers",
-      "description": "J.M. Barrie's celebrated team of literary amateurs, named in the mistaken belief that 'Allah akbar' meant 'Heaven help us' — appropriate enough for a side whose enthusiasm reliably outran its competence. Played friendlies across England and on the lawns of country houses for a quarter-century, fielding what now reads as a who's-who of late-Victorian and Edwardian letters.",
+      "description": "J.M. Barrie's celebrated team of literary amateurs, founded after a country-house weekend at Shere, Surrey in the summer of 1887 and named in the mistaken belief that 'Allah akbar' meant 'Heaven help us' — appropriate enough for a side whose enthusiasm reliably outran its competence. The Allahakbarries played friendlies across England and on the lawns of country houses for twenty-six years, the last full season being 1913; the First World War, which killed George Llewelyn Davies in 1915, finished off what was left. The roster turned over considerably across that span. Conan Doyle and Hornung were active from the late 1890s; Wodehouse and Milne joined in the early 1900s as young men just establishing themselves; the teenaged Llewelyn Davies appeared only in the side's last few summers. The whole reads now as a who's-who of late-Victorian and Edwardian letters.",
       "sources": [
         "Kevin Telfer, Peter Pan's First XI: The Extraordinary Story of J.M. Barrie's Cricket Team (2010)",
         "J.M. Barrie, Allahakbarrie Book of Broadway Cricket (1899)"
@@ -16,19 +16,19 @@
         { "label": "Wikipedia: Allahakbarries", "url": "https://en.wikipedia.org/wiki/Allahakbarries" }
       ],
       "members": [
-        { "name": "J.M. Barrie", "role": "Founder, captain", "wiki": "https://en.wikipedia.org/wiki/J._M._Barrie", "notes": "An indifferent cricketer but an inspired impresario." },
-        { "name": "Arthur Conan Doyle", "role": "Star all-rounder", "wiki": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle", "notes": "Genuinely good — once dismissed W.G. Grace." },
-        { "name": "P.G. Wodehouse", "role": "Bowler", "wiki": "https://en.wikipedia.org/wiki/P._G._Wodehouse" },
-        { "name": "A.A. Milne", "role": "All-rounder", "wiki": "https://en.wikipedia.org/wiki/A._A._Milne" },
-        { "name": "Rudyard Kipling", "role": "Occasional player", "wiki": "https://en.wikipedia.org/wiki/Rudyard_Kipling" },
-        { "name": "E.W. Hornung", "role": "All-rounder", "wiki": "https://en.wikipedia.org/wiki/E._W._Hornung", "notes": "Conan Doyle's brother-in-law; creator of Raffles." },
-        { "name": "Jerome K. Jerome", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Jerome_K._Jerome" },
-        { "name": "H.G. Wells", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/H._G._Wells" },
-        { "name": "G.K. Chesterton", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/G._K._Chesterton" },
-        { "name": "A.E.W. Mason", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/A._E._W._Mason" },
-        { "name": "E.V. Lucas", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/E._V._Lucas" },
-        { "name": "Maurice Hewlett", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Maurice_Hewlett" },
-        { "name": "George Llewelyn Davies", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Llewelyn_Davies_boys", "notes": "One of the boys for whom Peter Pan was written. Killed in action, 1915." }
+        { "name": "J.M. Barrie", "role": "Founder, captain", "activeFrom": 1887, "activeTo": 1913, "wiki": "https://en.wikipedia.org/wiki/J._M._Barrie", "notes": "Captained the side throughout its existence. An indifferent cricketer but an inspired impresario." },
+        { "name": "Arthur Conan Doyle", "role": "Star all-rounder", "wiki": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle", "notes": "Active from the late 1890s. Genuinely good — once dismissed W.G. Grace; later played first-class cricket for the MCC." },
+        { "name": "P.G. Wodehouse", "role": "Bowler", "wiki": "https://en.wikipedia.org/wiki/P._G._Wodehouse", "notes": "Joined in the early 1900s as a young clerk and Punch contributor. Borrowed the name of the Allahakbarries' captain — Psmith's first appearance was as 'Rupert Psmith of the Lost Lambs CC'." },
+        { "name": "A.A. Milne", "role": "All-rounder", "wiki": "https://en.wikipedia.org/wiki/A._A._Milne", "notes": "Joined in the early 1900s, around the time he was making his name at Punch." },
+        { "name": "Rudyard Kipling", "role": "Occasional player", "wiki": "https://en.wikipedia.org/wiki/Rudyard_Kipling", "notes": "Late-1890s appearances. Famously dismissive of cricket in print; turned out for Barrie nonetheless." },
+        { "name": "E.W. Hornung", "role": "All-rounder", "wiki": "https://en.wikipedia.org/wiki/E._W._Hornung", "notes": "Active from the early 1890s. Conan Doyle's brother-in-law; creator of Raffles." },
+        { "name": "Jerome K. Jerome", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Jerome_K._Jerome", "notes": "Played in the 1890s; the Three Men in a Boat era." },
+        { "name": "H.G. Wells", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/H._G._Wells", "notes": "Occasional turns around the turn of the century. His father had been a professional cricketer for Kent." },
+        { "name": "G.K. Chesterton", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/G._K._Chesterton", "notes": "Appearances in the 1900s; not known for cricketing aptitude." },
+        { "name": "A.E.W. Mason", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/A._E._W._Mason", "notes": "Active from the late 1890s." },
+        { "name": "E.V. Lucas", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/E._V._Lucas", "notes": "Long-serving member from the late 1890s; later edited the Allahakbarries' privately printed verses." },
+        { "name": "Maurice Hewlett", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Maurice_Hewlett", "notes": "Active across the side's middle years." },
+        { "name": "George Llewelyn Davies", "activeFrom": 1908, "activeTo": 1913, "role": "Player (as a teenager)", "wiki": "https://en.wikipedia.org/wiki/Llewelyn_Davies_boys", "notes": "One of the boys for whom Peter Pan was written. Played in the side's final summers, c.1908–1913. Killed in action in Flanders, March 1915." }
       ]
     },
     {
@@ -38,19 +38,19 @@
       "dissolved": 1912,
       "founder": "Arthur Conan Doyle",
       "type": "writers",
-      "description": "Captained by Conan Doyle and effectively an offshoot of the Allahakbarries, the original Authors XI played fixtures at Lord's against the Publishers and the Actors. The side disbanded in the years before the First World War.",
+      "description": "Captained by Conan Doyle and effectively an Edwardian offshoot of the Allahakbarries, the original Authors XI began playing in 1899 and continued for thirteen seasons, fielding fixtures at Lord's against the Publishers and the Actors. The side stopped playing in 1912; the war that followed scattered what was left. Conan Doyle, Hornung and Barrie were on the team-sheet from the start; Wodehouse, Milne and the younger generation came in over the next decade.",
       "sources": [
         "Charlie Connelly, The Authors XI: A Season of English Cricket from Hackney to Hambledon (2013)"
       ],
       "links": [],
       "members": [
-        { "name": "Arthur Conan Doyle", "role": "Captain", "wiki": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle" },
-        { "name": "E.W. Hornung", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/E._W._Hornung" },
-        { "name": "P.G. Wodehouse", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/P._G._Wodehouse" },
-        { "name": "A.A. Milne", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/A._A._Milne" },
-        { "name": "J.M. Barrie", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/J._M._Barrie" },
-        { "name": "J.C. Snaith", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/J._C._Snaith" },
-        { "name": "Hesketh Hesketh-Prichard", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Hesketh_Hesketh-Prichard", "notes": "The fastest of the Authors' bowlers." }
+        { "name": "Arthur Conan Doyle", "role": "Captain", "activeFrom": 1899, "activeTo": 1912, "wiki": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle", "notes": "Captained throughout the side's life." },
+        { "name": "E.W. Hornung", "role": "Player", "activeFrom": 1899, "wiki": "https://en.wikipedia.org/wiki/E._W._Hornung", "notes": "On the team-sheet from the first season." },
+        { "name": "P.G. Wodehouse", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/P._G._Wodehouse", "notes": "Joined in the 1900s, the same period he came into the Allahakbarries." },
+        { "name": "A.A. Milne", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/A._A._Milne", "notes": "Active in the side's later years (1900s)." },
+        { "name": "J.M. Barrie", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/J._M._Barrie", "notes": "Turned out for the Authors while still running the Allahakbarries." },
+        { "name": "J.C. Snaith", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/J._C._Snaith", "notes": "A serious cricketer of the Edwardian roster." },
+        { "name": "Hesketh Hesketh-Prichard", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Hesketh_Hesketh-Prichard", "notes": "The fastest of the Authors' bowlers; later a celebrated big-game hunter and First World War sniping pioneer." }
       ]
     },
     {
@@ -60,14 +60,14 @@
       "dissolved": 1968,
       "founder": "Edmund Blunden",
       "type": "writers",
-      "description": "A wartime and post-war revival under the captaincy of the poet Edmund Blunden. The side leaned on guest professionals — Hutton, Compton, Jardine, Benaud and Cardus all turned out at various points — to stiffen a literary line-up that included Alec Waugh, John Moore and Thomas Armstrong.",
+      "description": "A wartime and post-war revival, founded in 1940 under the captaincy of the poet Edmund Blunden — himself a survivor of the Western Front and the author of Cricket Country (1944). The side leaned on guest professionals — Hutton, Compton, Jardine, Benaud and Cardus all turned out at various points across the next quarter-century — to stiffen a literary line-up that included Alec Waugh, John Moore and Thomas Armstrong. The Authors stopped playing around 1968 as Blunden's health failed (he died in 1974). Documentation for the period is thin compared with the Edwardian original or the post-2012 revival.",
       "sources": [
         "Charlie Connelly, The Authors XI (2013)",
         "Edmund Blunden, Cricket Country (1944)"
       ],
       "links": [],
       "members": [
-        { "name": "Edmund Blunden", "role": "Captain", "wiki": "https://en.wikipedia.org/wiki/Edmund_Blunden" },
+        { "name": "Edmund Blunden", "role": "Captain", "activeFrom": 1940, "activeTo": 1968, "wiki": "https://en.wikipedia.org/wiki/Edmund_Blunden", "notes": "War poet and Oxford professor; held the captaincy for the side's entire run." },
         { "name": "Alec Waugh", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Alec_Waugh" },
         { "name": "John Moore", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/John_Moore_(novelist)" },
         { "name": "Thomas Armstrong", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Thomas_Armstrong_(novelist)" },
@@ -85,7 +85,7 @@
       "dissolved": null,
       "founder": "Martin Boddey, John Mills, Jack Hawkins and others",
       "type": "charity",
-      "description": "Founded by a group of actors drinking in the Tavern at Lord's, the Taverners have spent three-quarters of a century pairing celebrities with retired professionals to raise money for disabled and disadvantaged young people. HRH Prince Philip was the first Twelfth Man.",
+      "description": "Founded in 1950 by a group of actors drinking in the Tavern at Lord's, the Taverners have spent three-quarters of a century pairing celebrities with retired professionals to raise money for disabled and disadvantaged young people. HRH Prince Philip became the first Twelfth Man in 1952; the role passed to Prince Charles in 1975, and to Prince William in 2021. Of the original Lord's-bar founders, Martin Boddey, John Mills and Jack Hawkins were the central figures.",
       "sources": [
         "Lord's Taverners official history"
       ],
@@ -93,11 +93,11 @@
         { "label": "Lord's Taverners", "url": "https://www.lordstaverners.org/" }
       ],
       "members": [
-        { "name": "Martin Boddey", "role": "Founding member" },
-        { "name": "John Mills", "role": "Founding member", "wiki": "https://en.wikipedia.org/wiki/John_Mills" },
-        { "name": "Jack Hawkins", "role": "Founding member", "wiki": "https://en.wikipedia.org/wiki/Jack_Hawkins" },
-        { "name": "Harry Secombe", "role": "Long-serving member", "wiki": "https://en.wikipedia.org/wiki/Harry_Secombe" },
-        { "name": "Charles III", "role": "Patron and occasional player", "wiki": "https://en.wikipedia.org/wiki/Charles_III" }
+        { "name": "Martin Boddey", "role": "Founding member", "activeFrom": 1950 },
+        { "name": "John Mills", "role": "Founding member", "activeFrom": 1950, "wiki": "https://en.wikipedia.org/wiki/John_Mills" },
+        { "name": "Jack Hawkins", "role": "Founding member", "activeFrom": 1950, "wiki": "https://en.wikipedia.org/wiki/Jack_Hawkins" },
+        { "name": "Harry Secombe", "role": "Long-serving member", "wiki": "https://en.wikipedia.org/wiki/Harry_Secombe", "notes": "Of the Goons. Heavily involved from the 1960s." },
+        { "name": "Charles III", "role": "Twelfth Man (1975–2021), Patron", "activeFrom": 1975, "wiki": "https://en.wikipedia.org/wiki/Charles_III" }
       ]
     },
     {
@@ -107,7 +107,7 @@
       "dissolved": null,
       "founder": "Lupino Lane",
       "type": "theatrical",
-      "description": "The Gaieties were founded by the music-hall comedian Lupino Lane in 1937, and have been the central institution of theatrical and literary cricket ever since. Harold Pinter was Chairman from 1972 until his death in 2008, ferocious in the field and, latterly, unsparing in the umpire's coat. Tom Stoppard is reported by Hermione Lee to have kept wicket. The club still plays out of grounds across London and the home counties.",
+      "description": "The Gaieties were founded by the music-hall comedian Lupino Lane in 1937, and have been the central institution of theatrical and literary cricket ever since. Lupino Lane himself died in 1959, by which time the club was well established on grounds across London. Harold Pinter joined as a player in the early 1960s, took the chair in 1972, and held it until his death in December 2008 — ferocious in the field and, latterly, unsparing in the umpire's coat. Tom Stoppard is reported by Hermione Lee to have kept wicket; period and frequency unconfirmed. The club has now played for nearly nine decades and remains active.",
       "sources": [
         "Hermione Lee, Tom Stoppard: A Life (2020)",
         "Robert Winder & Ian Smith on the Gaieties (haroldpinter.org)",
@@ -118,7 +118,7 @@
         { "label": "Harold Pinter cricket pages", "url": "http://www.haroldpinter.org/cricket/index.shtml" }
       ],
       "members": [
-        { "name": "Lupino Lane", "role": "Founder (1937)", "wiki": "https://en.wikipedia.org/wiki/Lupino_Lane" },
+        { "name": "Lupino Lane", "role": "Founder (1937)", "activeFrom": 1937, "activeTo": 1959, "wiki": "https://en.wikipedia.org/wiki/Lupino_Lane", "notes": "Music-hall comedian behind The Lambeth Walk; driving force from the founding until his death in 1959." },
         { "name": "Harold Pinter", "role": "Chairman (1972–2008)", "activeFrom": 1963, "activeTo": 2008, "wiki": "https://en.wikipedia.org/wiki/Harold_Pinter", "notes": "Joined in the 1960s. Stopped playing but continued umpiring." },
         { "name": "Tom Stoppard", "role": "Wicketkeeper (per Hermione Lee)", "wiki": "https://en.wikipedia.org/wiki/Tom_Stoppard", "notes": "Mentioned in Lee's biography as playing for the Gaieties. Dates and role TBC." },
         { "name": "Shomit Dutta", "role": "Captain (2006– )" },
@@ -153,7 +153,7 @@
       "dissolved": null,
       "founder": "Tim Rice",
       "type": "showbiz",
-      "description": "Tim Rice's roving side, named after the Elvis song. More than 750 matches across half a century, an annual Cornwall tour, and a private almanack edited by Rice himself. A roll of cricketing presidents — Tony Lewis, Tom Graveney, Allan Lamb, David Gower, Chris Cowdrey, Mark Nicholas — gives some sense of the company kept.",
+      "description": "Tim Rice's roving side, founded in 1973 and named after the Elvis song. The first match — against Bill Heath's Gentlemen — was played that summer. More than 750 matches have followed in the half-century since, including an annual Cornwall tour and a private almanack edited by Rice himself. A roll of cricketing presidents — Tony Lewis, Tom Graveney, Allan Lamb, David Gower, Chris Cowdrey, Mark Nicholas — gives some sense of the company kept. The Gaieties were a regular and rivalrous opponent across the 1980s and 1990s.",
       "sources": [
         "Tim Rice, Oh, What a Circus (1999)",
         "Heartaches Cricketer's Almanack (private, annual)"
@@ -176,7 +176,7 @@
       "dissolved": 2005,
       "founder": "Peter O'Toole",
       "type": "theatrical",
-      "description": "Peter O'Toole's barely-documented club, named with characteristic flourish for the team's mascot — a plastic vulture called Lazarus. Almost nothing survives in print: a single Pitchero memoir, a few biographical asides. A research gap.",
+      "description": "Peter O'Toole's barely-documented club, formed in the early 1980s and active until around the time of O'Toole's withdrawal from public life in the mid-2000s; the founding date here is provisional. Named with characteristic flourish for the team's mascot — a plastic vulture called Lazarus. Almost nothing survives in print: a single Pitchero memoir, a few biographical asides. A research gap.",
       "sources": [
         "Pitchero memoir (uncertain attribution)",
         "Peter O'Toole biographies — to verify"
@@ -195,7 +195,7 @@
       "dissolved": null,
       "founder": "Charlie Campbell & Nicholas Hogg",
       "type": "writers",
-      "description": "Revived in 2012, a hundred years after the original Authors XI folded, by the literary agent Charlie Campbell (captain) and the novelist Nicholas Hogg (vice-captain). The motto — Praeter ingenium nihil, 'nothing beyond talent' — gives some sense of the self-mocking earnestness. Tours have included India, Sri Lanka, Iceland, Rome (where they played the Vatican XI) and Corfu.",
+      "description": "Revived in the spring of 2012 — exactly a hundred years after the original Authors XI folded — by the literary agent Charlie Campbell (captain) and the novelist Nicholas Hogg (vice-captain). The first season was sponsored by Christie's and produced Charlie Connelly's book The Authors XI: A Season of English Cricket (2013). The motto — Praeter ingenium nihil, 'nothing beyond talent' — gives some sense of the self-mocking earnestness. Tours have included India (2013, 2015), Sri Lanka (2014, 2016), Rome (2015, where they played the Vatican XI), Iceland and Corfu (2018). Most of the listed roster has been on the team-sheet at some point between 2012 and the present.",
       "sources": [
         "Charlie Connelly, The Authors XI: A Season of English Cricket (2013)",
         "Authors CC tour reports"
@@ -204,8 +204,8 @@
         { "label": "Authors CC", "url": "https://authorscc.com/" }
       ],
       "members": [
-        { "name": "Charlie Campbell", "role": "Captain, founder" },
-        { "name": "Nicholas Hogg", "role": "Vice-captain, founder", "wiki": "https://en.wikipedia.org/wiki/Nicholas_Hogg" },
+        { "name": "Charlie Campbell", "role": "Captain, founder", "activeFrom": 2012 },
+        { "name": "Nicholas Hogg", "role": "Vice-captain, founder", "activeFrom": 2012, "wiki": "https://en.wikipedia.org/wiki/Nicholas_Hogg" },
         { "name": "Sebastian Faulks", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Sebastian_Faulks" },
         { "name": "Tom Holland", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Tom_Holland_(author)" },
         { "name": "James Holland", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/James_Holland_(author)" },
@@ -221,7 +221,7 @@
         { "name": "Amol Rajan", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Amol_Rajan" },
         { "name": "Alex Preston", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Alex_Preston_(author)" },
         { "name": "Ed Smith", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Ed_Smith_(cricketer)" },
-        { "name": "Dan Stevens", "role": "Player (2012–13 season)", "wiki": "https://en.wikipedia.org/wiki/Dan_Stevens", "notes": "Played while filming Downton Abbey." },
+        { "name": "Dan Stevens", "role": "Player (2012–13 season)", "activeFrom": 2012, "activeTo": 2013, "wiki": "https://en.wikipedia.org/wiki/Dan_Stevens", "notes": "Played while filming Downton Abbey." },
         { "name": "Matthew Parker", "role": "Player" },
         { "name": "Thomas Penn", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Thomas_Penn" },
         { "name": "Mirza Waheed", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Mirza_Waheed" },
@@ -242,14 +242,14 @@
       "dissolved": null,
       "founder": "Damian Lewis",
       "type": "theatrical",
-      "description": "Captained by Damian Lewis, an annual fixture against the Authors at Arundel Castle has become the centre-point of the modern theatrical cricket calendar. The line-up is a rotating cast of actors known for parts in Game of Thrones, Downton, Wolf Hall and the like.",
+      "description": "Captained by Damian Lewis from around 2018, the modern Actors XI is the lineal successor to the Edwardian Actors who once played the original Authors XI at Lord's. The annual fixture against the Authors at Arundel Castle has become the centre-point of the modern theatrical cricket calendar. The line-up is a rotating cast of actors known for parts in Game of Thrones, Downton, Wolf Hall and the like; Iain Glen has been a regular from the start, with Ben Willbond, Alastair Whatley and others joining the core in the early 2020s.",
       "sources": [
         "Authors CC match reports",
         "Press coverage of Arundel fixtures"
       ],
       "links": [],
       "members": [
-        { "name": "Damian Lewis", "role": "Captain", "wiki": "https://en.wikipedia.org/wiki/Damian_Lewis" },
+        { "name": "Damian Lewis", "role": "Captain", "activeFrom": 2018, "wiki": "https://en.wikipedia.org/wiki/Damian_Lewis" },
         { "name": "Derek Horsham", "role": "Player" },
         { "name": "Ben Willbond", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Ben_Willbond" },
         { "name": "Owen Edmonds", "role": "Player" },
@@ -274,14 +274,14 @@
       "dissolved": null,
       "founder": "Members of Parliament",
       "type": "institutional",
-      "description": "The parliamentary cricket club, in unbroken existence since 1848 and playing out of Vincent Square. Has fixtures against the Dutch parliament; John Wisden himself is reputed to have appeared as a ringer. Brian Johnston turned out for them in 1933.",
+      "description": "The parliamentary cricket club, in unbroken existence since 1848 — making it by some distance the oldest of the teams charted here, and one of the oldest extant cricket clubs in the world. Plays out of Vincent Square. Has fixtures against the Dutch parliament; John Wisden himself, dying in 1884, is reputed to have appeared as a ringer at some point in the club's first three decades. Brian Johnston turned out for them in 1933 as a young man, before broadcasting; Tom King, John Redwood and Michael Cocks were among the parliamentarian-cricketers of the 1970s and 1980s.",
       "sources": [
         "Lords & Commons CC archive"
       ],
       "links": [],
       "members": [
         { "name": "John Wisden", "role": "Ringer (allegedly)", "wiki": "https://en.wikipedia.org/wiki/John_Wisden" },
-        { "name": "Brian Johnston", "role": "Player (1933)", "wiki": "https://en.wikipedia.org/wiki/Brian_Johnston" },
+        { "name": "Brian Johnston", "role": "Player (1933)", "activeFrom": 1933, "activeTo": 1933, "wiki": "https://en.wikipedia.org/wiki/Brian_Johnston" },
         { "name": "Tom King", "role": "Player (1970s–80s)", "wiki": "https://en.wikipedia.org/wiki/Tom_King,_Baron_King_of_Bridgwater" },
         { "name": "John Redwood", "role": "Player (1970s–80s)", "wiki": "https://en.wikipedia.org/wiki/John_Redwood" },
         { "name": "Michael Cocks", "role": "Player (1970s–80s)", "wiki": "https://en.wikipedia.org/wiki/Michael_Cocks,_Baron_Cocks_of_Hartcliffe" }

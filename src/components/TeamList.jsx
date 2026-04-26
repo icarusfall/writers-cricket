@@ -2,6 +2,12 @@ import { Link } from 'react-router-dom'
 import data from '../data/teams.json'
 import { TYPE_COLORS, TYPE_LABELS, isActive } from '../lib/teamHelpers.js'
 
+function firstSentences(text, count) {
+  if (!text) return ''
+  const parts = text.match(/[^.!?]+[.!?]+/g) ?? [text]
+  return parts.slice(0, count).join(' ').trim()
+}
+
 export default function TeamList() {
   const teams = [...data.teams].sort((a, b) => a.founded - b.founded)
 
@@ -37,8 +43,11 @@ export default function TeamList() {
                   {TYPE_LABELS[team.type]}
                 </span>
               </div>
-              <p className="mt-3 text-[15px] text-[var(--color-warm-grey)]">
+              <p className="mt-2 text-[13px] text-[var(--color-warm-grey)] italic">
                 Founded by {team.founder}.
+              </p>
+              <p className="mt-3 text-[15px] leading-snug text-[var(--color-ink)]">
+                {firstSentences(team.description, 2)}
               </p>
               <p className="label mt-4">{team.members.length} listed members</p>
             </Link>
