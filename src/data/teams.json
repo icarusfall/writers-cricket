@@ -107,20 +107,33 @@
       "dissolved": null,
       "founder": "Lupino Lane",
       "type": "theatrical",
-      "description": "The Gaieties were founded by the music-hall comedian Lupino Lane in 1937, and have been the central institution of theatrical and literary cricket ever since. Lupino Lane himself died in 1959, by which time the club was well established on grounds across London. Harold Pinter joined as a player in the early 1960s, took the chair in 1972, and held it until his death in December 2008 — ferocious in the field and, latterly, unsparing in the umpire's coat. Tom Stoppard is reported by Hermione Lee to have kept wicket; period and frequency unconfirmed. The club has now played for nearly nine decades and remains active.",
+      "description": "The Gaieties were founded by the music-hall comedian Lupino Lane in 1937, and have been the central institution of theatrical and literary cricket ever since. Lupino Lane himself died in 1959, by which time the club was well established on grounds across London. Harold Pinter joined as a player in the early 1960s, took the chair in 1972, and held it until his death in December 2008 — ferocious in the field and, latterly, unsparing in the umpire's coat. During Pinter's chairmanship the Sunday XI took on a particular literary cast: Tom Stoppard at the wicket in red gloves, Simon Gray stationed at deep fine leg so he could step over the ropes for a sip of gin and tonic between deliveries, and Ronald Harwood and David Hare among the rotating fielders. Pinter ran a separate annual fixture as well — the Harold Pinter XI v the Guardian XI, played each first Saturday of July at Gunnersbury Park in West London — into which the same theatrical regulars were drafted. Timeri Murari's first-hand memoir Bowling Pinter is the richest surviving account of either side. The club has now played for nearly nine decades and remains active.",
       "sources": [
         "Hermione Lee, Tom Stoppard: A Life (2020)",
+        "Timeri Murari, 'Bowling Pinter' (memoir, timerinmurari.com)",
+        "Tom Stoppard, interview in The Believer Magazine",
+        "Michael Agger, review of Hermione Lee's Tom Stoppard, Slate (Feb 2021)",
+        "Sir Tom Stoppard obituary, The Guardian (30 November 2025)",
         "Robert Winder & Ian Smith on the Gaieties (haroldpinter.org)",
+        "Inigo Thomas, 'Pinter's American Football', LRB Blog (Jan 2017)",
         "New Statesman, September 2022"
       ],
       "links": [
         { "label": "Gaieties CC", "url": "https://www.gaieties.net/newpage" },
-        { "label": "Harold Pinter cricket pages", "url": "http://www.haroldpinter.org/cricket/index.shtml" }
+        { "label": "Gaieties CC: Harold Pinter page", "url": "https://www.gaieties.net/harold-pinter" },
+        { "label": "Harold Pinter cricket pages", "url": "http://www.haroldpinter.org/cricket/index.shtml" },
+        { "label": "Timeri Murari: Bowling Pinter", "url": "https://www.timerinmurari.com/bowling-pinter/" },
+        { "label": "Slate: Hermione Lee biography review (the wicketkeeper passage)", "url": "https://slate.com/culture/2021/02/tom-stoppard-life-biography-hermione-lee.html" },
+        { "label": "The Believer: Stoppard interview", "url": "https://www.thebeliever.net/an-interview-with-tom-stoppard/" },
+        { "label": "Guardian: Sir Tom Stoppard obituary", "url": "https://www.theguardian.com/stage/2025/nov/30/sir-tom-stoppard-obituary" }
       ],
       "members": [
         { "name": "Lupino Lane", "role": "Founder (1937)", "activeFrom": 1937, "activeTo": 1959, "wiki": "https://en.wikipedia.org/wiki/Lupino_Lane", "notes": "Music-hall comedian behind The Lambeth Walk; driving force from the founding until his death in 1959." },
         { "name": "Harold Pinter", "role": "Chairman (1972–2008)", "activeFrom": 1963, "activeTo": 2008, "wiki": "https://en.wikipedia.org/wiki/Harold_Pinter", "notes": "Joined in the 1960s. Stopped playing but continued umpiring." },
-        { "name": "Tom Stoppard", "role": "Wicketkeeper (per Hermione Lee)", "wiki": "https://en.wikipedia.org/wiki/Tom_Stoppard", "notes": "Mentioned in Lee's biography as playing for the Gaieties. Dates and role TBC." },
+        { "name": "Tom Stoppard", "role": "Wicketkeeper (and occasional batsman)", "wiki": "https://en.wikipedia.org/wiki/Tom_Stoppard", "notes": "Kept wicket for Pinter's Sunday Gaieties XI and for the separate annual Harold Pinter XI v Guardian XI fixture at Gunnersbury Park. The wicketkeeper-with-red-gloves detail comes from Hermione Lee's biography (2020), quoted in Slate's review: 'Pinter, a fiercely competitive cricketer who organized matches against the Guardian team with Stoppard as his wicketkeeper.' Timeri Murari's first-hand memoir 'Bowling Pinter' independently names Stoppard at the wicket; his Guardian obituary (November 2025) confirms 'played cricket with enthusiasm as a batsman/wicketkeeper in Pinter's Sunday scratch team.' Stoppard, in The Believer: 'I was never that good at it, but I did aspire to being a wicket-keeper... very bad-tempered if I had to play in a match where while fielding I wasn't allowed to keep wicket.' Joining year and last match unattested; the playing window sits inside Pinter's captaincy (1972 to c.1990)." },
+        { "name": "Simon Gray", "role": "Deep fine leg", "wiki": "https://en.wikipedia.org/wiki/Simon_Gray", "notes": "Pinter's closest playwright friend. Per Timeri Murari's memoir, Pinter 'precisely placed' him at deep fine leg so he could 'step over the ropes for a sip of his gin and tonic' between deliveries. Active across the Pinter era." },
+        { "name": "Ronald Harwood", "role": "Player (Pinter-era circle)", "wiki": "https://en.wikipedia.org/wiki/Ronald_Harwood", "notes": "Identified by The Spectator as one of Pinter's 'four great pals' who shared his love of the game, alongside Stoppard, Gray and Hare. Specific match record unattested." },
+        { "name": "David Hare", "role": "Player (Pinter-era circle)", "wiki": "https://en.wikipedia.org/wiki/David_Hare_(playwright)", "notes": "Per The Spectator, the fourth of Pinter's playwright-cricketer pals. Specific match record unattested." },
         { "name": "Shomit Dutta", "role": "Captain (2006– )" },
         { "name": "Jonathan Smith", "role": "Captain (2002)" },
         { "name": "John Gleasure", "role": "Captain (2001)" },
@@ -308,7 +321,7 @@
     { "person": "E.W. Hornung", "teams": ["allahakbarries", "authors-original"] }
   ],
   "knownOpponents": [
-    { "name": "The Guardian XI", "playedBy": ["gaieties"] },
+    { "name": "The Guardian XI", "playedBy": ["gaieties"], "notes": "Annual Harold Pinter XI v Guardian XI fixture played each first Saturday of July at Gunnersbury Park, West London. Pinter assembled the XI personally — Stoppard at the wicket, Gray at deep fine leg." },
     { "name": "Paul Getty's XI", "playedBy": ["gaieties"], "notes": "Played at Wormsley." },
     { "name": "Peter O'Toole's XI", "playedBy": ["gaieties"], "notes": "Distinct from the Old Lazarusians?" },
     { "name": "Bill Heath's Gentlemen", "playedBy": ["heartaches"], "notes": "Heartaches' first ever opponents (1973)." },
