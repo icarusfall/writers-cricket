@@ -107,7 +107,7 @@
       "dissolved": null,
       "founder": "Lupino Lane",
       "type": "theatrical",
-      "description": "The Gaieties were founded by the music-hall comedian Lupino Lane in 1937, and have been the central institution of theatrical and literary cricket ever since. Lupino Lane himself died in 1959, by which time the club was well established on grounds across London. Harold Pinter joined as a player in the early 1960s, took the chair in 1972, and held it until his death in December 2008 — ferocious in the field and, latterly, unsparing in the umpire's coat. During Pinter's chairmanship the Sunday XI took on a particular literary cast: Tom Stoppard at the wicket in red gloves, Simon Gray stationed at deep fine leg so he could step over the ropes for a sip of gin and tonic between deliveries, and Ronald Harwood and David Hare among the rotating fielders. Pinter ran a separate annual fixture as well — the Harold Pinter XI v the Guardian XI, played each first Saturday of July at Gunnersbury Park in West London — into which the same theatrical regulars were drafted. Timeri Murari's first-hand memoir Bowling Pinter is the richest surviving account of either side. The club has now played for nearly nine decades and remains active.",
+      "description": "The Gaieties CC was founded by the music-hall comedian Lupino Lane in 1937. The name honours the Gaiety Theatre's long association with theatrical entertainment — Lane's own 1937 production of Me and My Girl ran at the Victoria Palace, though he later purchased the Gaiety's bombed-out shell in 1946 before selling it in 1950. A wandering side with no permanent home ground, the Gaieties have played across the Home Counties and beyond for nearly nine decades. Lane held the captaincy until his death in November 1959; his son Lauri Lupino Lane (1921–1986) succeeded him, before Harold Pinter took the chairmanship in 1972. The club's greatest cricketing figure in the early decades was Arthur Wellard — the Somerset and England fast bowler, twice famous for hitting five sixes in an over — who joined in the 1960s as coach, critic, confessor and counsellor, and was still hitting sixes for the Gaieties at the age of 72 before playing his final match in 1975. Pinter had been recruited to the club in 1969 by Fred Paolozzi, a flyman at the London Palladium who also coached at Alf Gover's cricket school in Wandsworth, where Pinter had taken his son Daniel. Pinter held the chairmanship ferociously until his death in December 2008 — ferocious in the field and, latterly, unsparing in the umpire's coat. During Pinter's chairmanship the Sunday XI took on a particular literary cast: Tom Stoppard at the wicket in red gloves, Simon Gray stationed at deep fine leg so he could step over the ropes for a sip of gin and tonic between deliveries, and Ronald Harwood and David Hare among the rotating fielders. Pinter ran a separate annual fixture as well — the Harold Pinter XI v the Guardian XI, played each first Saturday of July at Gunnersbury Park in West London — into which the same theatrical regulars were drafted. Timeri Murari's first-hand memoir Bowling Pinter is the richest surviving account. Pinter's tribute to Arthur Wellard, published in the 2003 limited-edition book The Catch and later performed at Lord's by Jeremy Irons and Samuel West, was cited by cricket writer Stephen Chalke as one of the ten best cricket essays ever written. A memorial match — Gaieties XI v Lord's Taverners XI captained by Mike Brearley — was held at Lord's on 27 September 2009. The club remains active.",
       "sources": [
         "Hermione Lee, Tom Stoppard: A Life (2020)",
         "Timeri Murari, 'Bowling Pinter' (memoir, timerinmurari.com)",
@@ -116,7 +116,11 @@
         "Sir Tom Stoppard obituary, The Guardian (30 November 2025)",
         "Robert Winder & Ian Smith on the Gaieties (haroldpinter.org)",
         "Inigo Thomas, 'Pinter's American Football', LRB Blog (Jan 2017)",
-        "New Statesman, September 2022"
+        "New Statesman, September 2022",
+        "Harold Pinter, 'Arthur Wellard', in The Catch (Evergreen Press, 2003)",
+        "Ian Smith, tribute to Harold Pinter, Wisden Cricketers' Almanack 2009",
+        "Shomit Dutta, 'Sporting Notes: At the crease with Harold Pinter', New Statesman (Sept 2022)",
+        "Harry Burton, 'History of the Gaieties' (haroldpinter.org/cricket/history.shtml)"
       ],
       "links": [
         { "label": "Gaieties CC", "url": "https://www.gaieties.net/newpage" },
@@ -125,31 +129,39 @@
         { "label": "Timeri Murari: Bowling Pinter", "url": "https://www.timerinmurari.com/bowling-pinter/" },
         { "label": "Slate: Hermione Lee biography review (the wicketkeeper passage)", "url": "https://slate.com/culture/2021/02/tom-stoppard-life-biography-hermione-lee.html" },
         { "label": "The Believer: Stoppard interview", "url": "https://www.thebeliever.net/an-interview-with-tom-stoppard/" },
-        { "label": "Guardian: Sir Tom Stoppard obituary", "url": "https://www.theguardian.com/stage/2025/nov/30/sir-tom-stoppard-obituary" }
+        { "label": "Guardian: Sir Tom Stoppard obituary", "url": "https://www.theguardian.com/stage/2025/nov/30/sir-tom-stoppard-obituary" },
+        { "label": "New Statesman: At the crease with Harold Pinter (Shomit Dutta)", "url": "https://www.newstatesman.com/culture/sport/2022/09/sporting-notes-shomit-dutta-crease-harold-pinter" },
+        { "label": "Nomads CC: Ossie Gooding memorial", "url": "https://www.nomadscc.com/history/in-memoriam/ossie-gooding-1932-2002/" }
       ],
       "members": [
-        { "name": "Lupino Lane", "role": "Founder (1937)", "activeFrom": 1937, "activeTo": 1959, "wiki": "https://en.wikipedia.org/wiki/Lupino_Lane", "notes": "Music-hall comedian behind The Lambeth Walk; driving force from the founding until his death in 1959." },
-        { "name": "Harold Pinter", "role": "Chairman (1972–2008)", "activeFrom": 1963, "activeTo": 2008, "wiki": "https://en.wikipedia.org/wiki/Harold_Pinter", "notes": "Joined in the 1960s. Stopped playing but continued umpiring." },
+        { "name": "Lupino Lane", "role": "Founder, captain (1937–1959)", "activeFrom": 1937, "activeTo": 1959, "wiki": "https://en.wikipedia.org/wiki/Lupino_Lane", "notes": "Music-hall comedian behind The Lambeth Walk; driving force from the founding until his death in November 1959." },
+        { "name": "Lauri Lupino Lane", "role": "Captain (c.1959–1972)", "activeFrom": 1959, "activeTo": 1972, "notes": "Lane's son (1921–1986), also an actor. Held the captaincy between his father's death and Pinter's appointment." },
+        { "name": "Arthur Wellard", "role": "Coach and player (1960s–1975)", "activeFrom": 1963, "activeTo": 1975, "wiki": "https://en.wikipedia.org/wiki/Arthur_Wellard", "notes": "Somerset and England fast bowler, twice famous for hitting five sixes in an over. Joined the Gaieties as coach, critic, confessor and counsellor; still hitting sixes at 72 (1974) and played his final match in 1975. Pinter's tribute to him was cited by Stephen Chalke as one of the ten best cricket essays ever written." },
+        { "name": "Harold Pinter", "role": "Chairman (1972–2008)", "activeFrom": 1963, "activeTo": 2008, "wiki": "https://en.wikipedia.org/wiki/Harold_Pinter", "notes": "Recruited by Fred Paolozzi at Alf Gover's cricket school in 1969. Stopped playing but continued umpiring." },
         { "name": "Tom Stoppard", "role": "Wicketkeeper (and occasional batsman)", "wiki": "https://en.wikipedia.org/wiki/Tom_Stoppard", "notes": "Kept wicket for Pinter's Sunday Gaieties XI and for the separate annual Harold Pinter XI v Guardian XI fixture at Gunnersbury Park. The wicketkeeper-with-red-gloves detail comes from Hermione Lee's biography (2020), quoted in Slate's review: 'Pinter, a fiercely competitive cricketer who organized matches against the Guardian team with Stoppard as his wicketkeeper.' Timeri Murari's first-hand memoir 'Bowling Pinter' independently names Stoppard at the wicket; his Guardian obituary (November 2025) confirms 'played cricket with enthusiasm as a batsman/wicketkeeper in Pinter's Sunday scratch team.' Stoppard, in The Believer: 'I was never that good at it, but I did aspire to being a wicket-keeper... very bad-tempered if I had to play in a match where while fielding I wasn't allowed to keep wicket.' Joining year and last match unattested; the playing window sits inside Pinter's captaincy (1972 to c.1990)." },
         { "name": "Simon Gray", "role": "Deep fine leg", "wiki": "https://en.wikipedia.org/wiki/Simon_Gray", "notes": "Pinter's closest playwright friend. Per Timeri Murari's memoir, Pinter 'precisely placed' him at deep fine leg so he could 'step over the ropes for a sip of his gin and tonic' between deliveries. Active across the Pinter era." },
         { "name": "Ronald Harwood", "role": "Player (Pinter-era circle)", "wiki": "https://en.wikipedia.org/wiki/Ronald_Harwood", "notes": "Identified by The Spectator as one of Pinter's 'four great pals' who shared his love of the game, alongside Stoppard, Gray and Hare. Specific match record unattested." },
         { "name": "David Hare", "role": "Player (Pinter-era circle)", "wiki": "https://en.wikipedia.org/wiki/David_Hare_(playwright)", "notes": "Per The Spectator, the fourth of Pinter's playwright-cricketer pals. Specific match record unattested." },
-        { "name": "Shomit Dutta", "role": "Captain (2006– )" },
+        { "name": "Ossie Gooding", "role": "Fast bowler", "activeFrom": 1965, "activeTo": 2002, "notes": "Barbadian-born (1939–2002); represented the British Army and Combined Services; played for Hampshire CCC 2nd XI. Made the weekly journey from northeast England to bowl for the Gaieties. A legendary figure of the club; Pinter read the oration at his funeral. The annual Nomads v Gaieties memorial match honours Gooding, Pinter, and Charlton Lamb." },
+        { "name": "Charlton Lamb", "role": "Player", "activeFrom": 1965, "activeTo": 2013, "notes": "G. Charlton Lamb (1936–2013); youngest-ever capped Durham CCC (Minor County) player at 17. Played for Gateshead Fell and Surrey Championship clubs before becoming a Gaieties and Nomads legend. Also honoured in the annual Nomads v Gaieties memorial match." },
+        { "name": "Harry Burton", "role": "Player, chairman", "activeFrom": 1981, "notes": "Actor and director (b. 1962; known for Bob Marley: One Love, The Trial, Secret Invasion). Joined the Gaieties in 1981 aged 19; first met Pinter at Gaieties in 1982. His long directing collaboration with Pinter began through cricket. Current club chairman." },
+        { "name": "Ian Smith", "role": "Player", "notes": "Academic and musician; Gaieties teammate of Pinter's. Wrote the tribute to Harold Pinter in Wisden Cricketers' Almanack 2009." },
+        { "name": "Inigo Thomas", "role": "Player", "notes": "LRB journalist and essayist; confirmed Gaieties player. In his 2017 LRB piece 'Pinter's American Football' he recounts bowling a practice ball that struck Pinter's black Mercedes at a Gaieties match against the Honourable Artillery Company at the Artillery Garden, City of London — Pinter 'exploded, but then gave me a wink: he was having me on.'" },
+        { "name": "Nick Cowley", "role": "Treasurer, opening bowler", "activeFrom": 1989, "notes": "Metronomic opening bowler; debut 1989 vs Cranleigh; approximately 500 career matches; veteran of tours to Barrie Island, Ampleforth, and India. Published Bites of Cricket (Olympia Publishers, 2024)." },
+        { "name": "Shomit Dutta", "role": "Captain (c.2006– )", "activeFrom": 2000, "notes": "Oxford Classics (1989); joined around 2000, appointed playing captain by Pinter in his final years. Highest club score 126 not out vs Rossie Priory (2006). Wrote the play Stumped — imagining Beckett and Pinter playing cricket in the Cotswolds — performed live from Lord's in 2022 with Stephen Tompkinson and Andrew Lancel." },
+        { "name": "James Schneider", "role": "Captain (current)", "activeFrom": 2005, "notes": "One of Dutta's recruits; now captain." },
+        { "name": "Tim Schneider", "role": "Wicketkeeper-batter", "activeFrom": 2005, "notes": "Younger brother of James; joined c.2005." },
         { "name": "Jonathan Smith", "role": "Captain (2002)" },
         { "name": "John Gleasure", "role": "Captain (2001)" },
         { "name": "Ben Nealon", "role": "Player" },
-        { "name": "Nick Cowley", "role": "Player" },
-        { "name": "Charlton Lamb", "role": "Player" },
         { "name": "Ian McKinnon", "role": "Player" },
         { "name": "Richard Wyse", "role": "Player" },
         { "name": "Edward Hughes", "role": "Player" },
         { "name": "Roger Davidson", "role": "Player" },
-        { "name": "Inigo Thomas", "role": "Player" },
         { "name": "Winston Stafford", "role": "Player" },
         { "name": "Peter Swaab", "role": "Player" },
         { "name": "Ian Cartmill", "role": "Player" },
         { "name": "Dominic Perks", "role": "Player" },
-        { "name": "Ossie Gooding", "role": "Player" },
         { "name": "Nathan Lamb", "role": "Player" },
         { "name": "Tom Falkus", "role": "Player" },
         { "name": "James Handford", "role": "Player" },
@@ -166,20 +178,25 @@
       "dissolved": null,
       "founder": "Tim Rice",
       "type": "showbiz",
-      "description": "Tim Rice's roving side, founded in 1973 and named after the Elvis song. The first match — against Bill Heath's Gentlemen — was played that summer. More than 750 matches have followed in the half-century since, including an annual Cornwall tour and a private almanack edited by Rice himself. A roll of cricketing presidents — Tony Lewis, Tom Graveney, Allan Lamb, David Gower, Chris Cowdrey, Mark Nicholas — gives some sense of the company kept. The Gaieties were a regular and rivalrous opponent across the 1980s and 1990s.",
+      "description": "Tim Rice's roving side, founded in 1973 and named after the Elvis song. The first match — against Bill Heath's Gentlemen — was played that summer. More than 750 matches have followed in the half-century since, played from Rice's private estate in south Oxfordshire and at grounds across the country, including international tours as far as Russia, Estonia and the USA. The annual fixture at Arundel Castle Cricket Ground is one of the calendar's landmarks. Rice edits the Heartaches Cricketer's Almanack himself under the pseudonym 'Clava Recta'; his own career batting average stood at 7.02 across 388 recorded matches. A roll of cricketing presidents — Tony Lewis, Tom Graveney, Allan Lamb, David Gower, Chris Cowdrey, Mark Nicholas — gives some sense of the company kept. The Gaieties were a regular and rivalrous opponent across the 1980s and 1990s; the final match between the two clubs, played at Rice's Oxfordshire estate in 2008, was rained off that afternoon, with players retiring to Rice's private bar.",
       "sources": [
         "Tim Rice, Oh, What a Circus (1999)",
-        "Heartaches Cricketer's Almanack (private, annual)"
+        "Heartaches Cricketer's Almanack (private, annual)",
+        "Tim Rice, 'Heartaches that stand test of time', ESPNcricinfo (8 July 1998)"
       ],
-      "links": [],
+      "links": [
+        { "label": "ESPNcricinfo: Heartaches that stand test of time (Tim Rice, 1998)", "url": "https://www.espncricinfo.com/story/t-rice-heartaches-that-stand-test-of-time-8-jul-1998-75840" },
+        { "label": "Arundel Castle Cricket: Heartaches Cricket Day", "url": "https://www.cricketatarundelcastle.co.uk/matches/sir-tim-rices-heartaches-cricket-days/" }
+      ],
       "members": [
-        { "name": "Tim Rice", "role": "Founder", "activeFrom": 1973, "wiki": "https://en.wikipedia.org/wiki/Tim_Rice" },
+        { "name": "Tim Rice", "role": "Founder", "activeFrom": 1973, "wiki": "https://en.wikipedia.org/wiki/Tim_Rice", "notes": "Career batting average 7.02 across 388 recorded matches. Edits the annual Heartaches Cricketer's Almanack under the pseudonym 'Clava Recta'." },
         { "name": "Tony Lewis", "role": "President", "wiki": "https://en.wikipedia.org/wiki/Tony_Lewis_(cricketer)" },
         { "name": "Tom Graveney", "role": "President", "wiki": "https://en.wikipedia.org/wiki/Tom_Graveney" },
         { "name": "Allan Lamb", "role": "President", "wiki": "https://en.wikipedia.org/wiki/Allan_Lamb" },
         { "name": "David Gower", "role": "President", "wiki": "https://en.wikipedia.org/wiki/David_Gower" },
         { "name": "Chris Cowdrey", "role": "President", "wiki": "https://en.wikipedia.org/wiki/Chris_Cowdrey" },
-        { "name": "Mark Nicholas", "role": "President", "wiki": "https://en.wikipedia.org/wiki/Mark_Nicholas" }
+        { "name": "Mark Nicholas", "role": "President", "wiki": "https://en.wikipedia.org/wiki/Mark_Nicholas" },
+        { "name": "Mike Gatting", "role": "Guest player", "wiki": "https://en.wikipedia.org/wiki/Mike_Gatting", "notes": "Former England captain; confirmed as a Heartaches guest player." }
       ]
     },
     {
@@ -189,16 +206,52 @@
       "dissolved": 2005,
       "founder": "Peter O'Toole",
       "type": "theatrical",
-      "description": "Peter O'Toole's barely-documented club, formed in the early 1980s and active until around the time of O'Toole's withdrawal from public life in the mid-2000s; the founding date here is provisional. Named with characteristic flourish for the team's mascot — a plastic vulture called Lazarus. Almost nothing survives in print: a single Pitchero memoir, a few biographical asides. A research gap.",
+      "description": "Peter O'Toole's club, formed in the early 1980s — the founding date here is provisional — and active until the mid-2000s. Named with characteristic flourish for the team's mascot: a large plastic vulture wearing a Lazarusian cricket cap, called Lazarus, whom players ritually circled and chanted around before each match. Kenneth Griffith, the veteran Welsh actor, served as President; the actor John Standing was among the members. O'Toole was separately a long-serving player and Vice-President at Berkhamsted Cricket Club from the 1960s onwards. Documented fixtures include matches at Raunds Town CC in Northamptonshire — arranged via cricket coach John Malfait, who had coached O'Toole at Lord's — and an away tour to the Chateau de Thoiry Cricket Club in France in September 1991. Almost nothing survives in print beyond a Pitchero memoir and the Raunds Town CC archive.",
       "sources": [
-        "Pitchero memoir (uncertain attribution)",
-        "Peter O'Toole biographies — to verify"
+        "Nuthurst CC, 'Memories of cricket with Peter O'Toole' (Pitchero, 2013)",
+        "Archives of Raunds Town CC (raundstowncc.weebly.com/peter-otoole)",
+        "Getty Images: Eric Robert photograph, Chateau de Thoiry, 27 September 1991"
       ],
-      "links": [],
+      "links": [
+        { "label": "Nuthurst CC: Memories of cricket with Peter O'Toole", "url": "https://www.pitchero.com/clubs/nuthurstcricketclub/news/memories-of-cricket-with-peter-otoole-1186540.html" },
+        { "label": "Archives of Raunds Town CC: Peter O'Toole", "url": "https://thearchivesofraundstowncc.weebly.com/peter-otoole.html" }
+      ],
       "members": [
-        { "name": "Peter O'Toole", "role": "Founder", "wiki": "https://en.wikipedia.org/wiki/Peter_O%27Toole" },
-        { "name": "Tim Ackroyd", "role": "Player" },
-        { "name": "Michael Neilson", "role": "Player" }
+        { "name": "Peter O'Toole", "role": "Founder", "wiki": "https://en.wikipedia.org/wiki/Peter_O%27Toole", "notes": "Also a long-serving player and Vice-President at Berkhamsted Cricket Club from the 1960s." },
+        { "name": "Kenneth Griffith", "role": "President", "wiki": "https://en.wikipedia.org/wiki/Kenneth_Griffith", "notes": "Veteran Welsh actor; served as President of the Old Lazarusians." },
+        { "name": "John Standing", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/John_Standing", "notes": "Actor; confirmed as a member in the Raunds Town CC archive." },
+        { "name": "Tim Ackroyd", "role": "Player", "notes": "O'Toole's godson; introduced O'Toole to Michael Neilson after they completed the play Another Country." },
+        { "name": "Michael Neilson", "role": "Player", "notes": "Included, per the Nuthurst account, for 'entertainment value'." }
+      ]
+    },
+    {
+      "id": "vic-lewis",
+      "name": "Vic Lewis XI",
+      "founded": 1952,
+      "dissolved": 1984,
+      "founder": "Vic Lewis",
+      "type": "showbiz",
+      "description": "The show-business charity cricket team run by jazz bandleader, impresario and talent agent Vic Lewis (1919–2009), who later became a General Committee Member of Middlesex CCC (1976–2001). Lewis began organising celebrity cricket in 1952 and ran his standing XI from 1957 until 1984, by which time it had raised more than £3 million for charity. The format was simple: mix first-class professionals with entertainment-world celebrities, play at Lord's and prestigious grounds, and give the money to good causes. The best-documented single fixture — a charity match at Lord's against Middlesex on 10 June 1973 — fielded Elton John, Michael Parkinson, David Frost, Peter Cook, Nicholas Parsons, Ed Stewart, Gerald Harper, the West Indies and Barbados fast bowler Wes Hall, Brian Rix, and Malcolm McFee. Lewis's dual life as impresario — his clients included the Beatles and Elton John — gave him unrivalled access to the celebrity names needed to fill those scorecards.",
+      "sources": [
+        "ESPNcricinfo obituary: 'Bandleader and cricket fanatic Vic Lewis dies' (2009)",
+        "@PictureSporting, photograph of the Vic Lewis XI at Lord's, 10 June 1973",
+        "Vic Lewis with Tony Barrow, Music and Maiden Overs: My Showbusiness Life (1987)"
+      ],
+      "links": [
+        { "label": "ESPNcricinfo: Vic Lewis obituary", "url": "https://www.espncricinfo.com/story/bandleader-and-cricket-fanatic-vic-lewis-dies-395075" }
+      ],
+      "members": [
+        { "name": "Vic Lewis", "role": "Founder", "activeFrom": 1952, "activeTo": 1984, "wiki": "https://en.wikipedia.org/wiki/Vic_Lewis_(musician)", "notes": "Jazz guitarist, bandleader and talent agent (1919–2009); General Committee Member of Middlesex CCC 1976–2001. Wrote Music and Maiden Overs (1987)." },
+        { "name": "Elton John", "role": "Player (1973)", "activeFrom": 1973, "activeTo": 1973, "wiki": "https://en.wikipedia.org/wiki/Elton_John", "notes": "Played in the Lord's charity match vs Middlesex, 10 June 1973." },
+        { "name": "Peter Cook", "role": "Player (1973)", "activeFrom": 1973, "activeTo": 1973, "wiki": "https://en.wikipedia.org/wiki/Peter_Cook" },
+        { "name": "David Frost", "role": "Player (1973)", "activeFrom": 1973, "activeTo": 1973, "wiki": "https://en.wikipedia.org/wiki/David_Frost" },
+        { "name": "Michael Parkinson", "role": "Player (1973)", "activeFrom": 1973, "activeTo": 1973, "wiki": "https://en.wikipedia.org/wiki/Michael_Parkinson" },
+        { "name": "Wes Hall", "role": "Player (1973)", "activeFrom": 1973, "activeTo": 1973, "wiki": "https://en.wikipedia.org/wiki/Wes_Hall", "notes": "West Indies and Barbados fast bowler; one of the sport's genuine pros in a celebrity XI." },
+        { "name": "Brian Rix", "role": "Player (1973)", "activeFrom": 1973, "activeTo": 1973, "wiki": "https://en.wikipedia.org/wiki/Brian_Rix" },
+        { "name": "Nicholas Parsons", "role": "Player (1973)", "activeFrom": 1973, "activeTo": 1973, "wiki": "https://en.wikipedia.org/wiki/Nicholas_Parsons" },
+        { "name": "Ed Stewart", "role": "Player (1973)", "activeFrom": 1973, "activeTo": 1973, "wiki": "https://en.wikipedia.org/wiki/Ed_Stewart_(DJ)" },
+        { "name": "Gerald Harper", "role": "Player (1973)", "activeFrom": 1973, "activeTo": 1973, "wiki": "https://en.wikipedia.org/wiki/Gerald_Harper" },
+        { "name": "Malcolm McFee", "role": "Player (1973)", "activeFrom": 1973, "activeTo": 1973, "wiki": "https://en.wikipedia.org/wiki/Malcolm_McFee" }
       ]
     },
     {
@@ -227,7 +280,7 @@
         { "name": "Anthony McGowan", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Anthony_McGowan" },
         { "name": "William Fiennes", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/William_Fiennes" },
         { "name": "Jon Hotten", "role": "Player" },
-        { "name": "Matt Thacker", "role": "Player" },
+        { "name": "Matt Thacker", "role": "Player", "notes": "Editor of The Nightwatchman; co-organised the Words and Wickets festival at Wormsley from 2013." },
         { "name": "Adam Rutherford", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Adam_Rutherford" },
         { "name": "Andy Zaltzman", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Andy_Zaltzman" },
         { "name": "Kamila Shamsie", "role": "Player", "wiki": "https://en.wikipedia.org/wiki/Kamila_Shamsie" },
@@ -275,7 +328,7 @@
         { "name": "Nathan Lee", "role": "Player" },
         { "name": "Gwyn Jones", "role": "Player (2020 roster)" },
         { "name": "Paul Lichtenstern", "role": "Player (2020 roster)" },
-        { "name": "Peter Sandys-Clarke", "role": "Player (2020 roster)" },
+        { "name": "Peter Sandys-Clarke", "role": "Player (2020 roster)", "notes": "Captain of the Thespian Thunderers CC; played in the inaugural Words and Wickets Actors XI at Wormsley (2013)." },
         { "name": "Lachlan Nieboer", "role": "Player (2020 roster)" },
         { "name": "Geoff Streatfeild", "role": "Player (2020 roster)", "wiki": "https://en.wikipedia.org/wiki/Geoffrey_Streatfeild" }
       ]
@@ -305,12 +358,12 @@
     { "from": "allahakbarries", "to": "authors-original", "type": "evolved", "label": "Offshoot side; shared rosters" },
     { "from": "authors-original", "to": "authors-blunden", "type": "revival", "label": "Post-war revival under Edmund Blunden" },
     { "from": "authors-blunden", "to": "authors-modern", "type": "revival", "label": "Re-founded a century after the original" },
-    { "from": "gaieties", "to": "heartaches", "type": "rivalry", "label": "Regular fixture", "notes": "Pinter described dismissing the Heartaches for 81 as giving them 'a really good drubbing'." },
-    { "from": "gaieties", "to": "lords-taverners", "type": "fixture", "label": "Pinter memorial match (Lord's, 2009)" },
+    { "from": "gaieties", "to": "heartaches", "type": "rivalry", "label": "Regular fixture", "notes": "Pinter described dismissing the Heartaches for 81 as giving them 'a really good drubbing'. The final match between the clubs, at Rice's Oxfordshire estate in 2008, was rained off." },
+    { "from": "gaieties", "to": "lords-taverners", "type": "fixture", "label": "Pinter memorial match (Lord's, 27 September 2009)", "notes": "Gaieties XI v Lord's Taverners XI captained by Mike Brearley. Jeremy Irons and Samuel West performed Pinter's 'The Catch' in the evening readings." },
     { "from": "authors-modern", "to": "actors-xi", "type": "rivalry", "label": "Annual fixture at Arundel Castle" },
     { "from": "authors-modern", "to": "lords-taverners", "type": "fixture", "label": "Celebrity match (2019)" },
     { "from": "authors-modern", "to": "lords-commons", "type": "fixture", "label": "Regular fixture" },
-    { "from": "authors-modern", "to": "heartaches", "type": "fixture", "label": "Match at Arundel" },
+    { "from": "authors-modern", "to": "heartaches", "type": "fixture", "label": "Annual Heartaches Cricket Day at Arundel" },
     { "from": "authors-original", "to": "allahakbarries", "type": "historical", "label": "Shared founding generation" }
   ],
   "crossovers": [
@@ -321,10 +374,15 @@
     { "person": "E.W. Hornung", "teams": ["allahakbarries", "authors-original"] }
   ],
   "knownOpponents": [
-    { "name": "The Guardian XI", "playedBy": ["gaieties"], "notes": "Annual Harold Pinter XI v Guardian XI fixture played each first Saturday of July at Gunnersbury Park, West London. Pinter assembled the XI personally — Stoppard at the wicket, Gray at deep fine leg." },
-    { "name": "Paul Getty's XI", "playedBy": ["gaieties"], "notes": "Played at Wormsley." },
-    { "name": "Peter O'Toole's XI", "playedBy": ["gaieties"], "notes": "Distinct from the Old Lazarusians?" },
+    { "name": "The Guardian XI", "playedBy": ["gaieties"], "notes": "Annual Harold Pinter XI v Guardian XI fixture played each first Saturday of July at Gunnersbury Park, West London. Pinter assembled the XI personally — Stoppard at the wicket, Gray at deep fine leg. The Guardian side was 'steadfastly Guardian men only' until later years." },
+    { "name": "Nomads CC", "playedBy": ["gaieties"], "notes": "A long-standing fixture. The annual Nomads v Gaieties memorial match, played since 2002, honours Ossie Gooding, Harold Pinter, and Charlton Lamb." },
+    { "name": "Paul Getty's XI (Wormsley)", "playedBy": [], "notes": "Paul Getty's XI played at the Wormsley Park ground (opened 1992) against traditional wandering sides. No confirmed Gaieties fixture at Wormsley found. The main literary-theatrical Wormsley fixture is the Words and Wickets festival (from 2013), Authors XI v Actors XI." },
+    { "name": "Words and Wickets XI (Wormsley)", "playedBy": ["authors-modern", "actors-xi"], "notes": "Annual festival at Wormsley Park, Buckinghamshire, inaugurated September 2013. Authors XI captained by Charlie Campbell; Actors XI captained by Damian Lewis. 2017 edition: Authors XI (Sebastian Faulks) beat Entertainers XI (Sam Mendes) by 5 wickets." },
+    { "name": "Peter O'Toole's XI", "playedBy": ["gaieties"], "notes": "Noted in Gaieties match records; likely refers to O'Toole's own Old Lazarusians or a casual XI, rather than a standing club fixture." },
     { "name": "Bill Heath's Gentlemen", "playedBy": ["heartaches"], "notes": "Heartaches' first ever opponents (1973)." },
+    { "name": "Arundel Castle Cricket Ground XI", "playedBy": ["heartaches", "authors-modern", "actors-xi"], "notes": "Annual Heartaches Cricket Day is a standing fixture at Arundel; the Authors XI and Actors XI also play there regularly." },
+    { "name": "Odiham and Greywell CC", "playedBy": ["heartaches"], "notes": "40 confirmed fixtures before 2017, half ending in draws." },
+    { "name": "Middlesex CCC", "playedBy": ["vic-lewis"], "notes": "Lord's charity match, 10 June 1973." },
     { "name": "Groucho Club", "playedBy": ["gaieties"] },
     { "name": "Hampstead CC", "playedBy": ["gaieties"] },
     { "name": "Royal Household", "playedBy": ["authors-modern"] },
@@ -333,8 +391,8 @@
     { "name": "Japan national team", "playedBy": ["authors-modern"], "notes": "London, 2013 — Authors won." },
     { "name": "Rajasthan Royals", "playedBy": ["authors-modern"], "notes": "On tour, 2013." },
     { "name": "Shepperton Ladies", "playedBy": ["authors-modern"], "notes": "Kamila Shamsie's match." },
-    { "name": "Punch XI", "playedBy": [], "notes": "Historical magazine team — own eleven mentioned in sources." },
-    { "name": "Maharanah of Udaipur's XI", "playedBy": ["gaieties"] }
+    { "name": "Punch XI", "playedBy": [], "notes": "Historical magazine team — played the Authors CC at Lord's in the Edwardian era." },
+    { "name": "Maharanah of Udaipur's XI", "playedBy": ["gaieties"], "notes": "Noted in Gaieties records, likely from the India tours; specific match details unverified." }
   ],
   "eras": [
     { "id": "victorian", "label": "Victorian & Edwardian", "from": 1840, "to": 1914 },
