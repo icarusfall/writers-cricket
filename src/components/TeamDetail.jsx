@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import data from '../data/teams.json'
 import MemberCard from './MemberCard.jsx'
+import { Crest, FleuronSimple, Fleuron } from './Motifs.jsx'
 import {
   CONNECTION_LABELS,
   TYPE_COLORS,
@@ -16,8 +17,8 @@ export default function TeamDetail() {
   if (!team) {
     return (
       <section>
-        <p className="label">Not found</p>
-        <h2 className="font-display text-3xl mt-2">No team by that name.</h2>
+        <p className="smallcaps">Not found</p>
+        <h2 className="serif-display text-3xl mt-2 italic-display" style={{ fontStyle: 'italic' }}>No team by that name.</h2>
         <p className="mt-4">
           <Link to="/teams">Back to the team list</Link>
         </p>
@@ -34,55 +35,47 @@ export default function TeamDetail() {
     .filter(Boolean)
 
   const opponents = data.knownOpponents.filter((o) => o.playedBy.includes(team.id))
+  const accent = TYPE_COLORS[team.type]
 
   return (
     <article>
-      <p className="label mb-4">
-        <Link to="/teams" className="plain text-[var(--color-warm-grey)] hover:text-[var(--color-ink)]">
+      <p className="smallcaps mb-6">
+        <Link to="/teams" className="plain text-[var(--color-ink-faint)] hover:text-[var(--color-ink)]">
           ← All teams
         </Link>
       </p>
 
-      <header className="mb-10">
-        <div className="flex flex-wrap items-center gap-3 mb-3">
-          <span
-            className="label px-2 py-0.5 rounded-sm"
-            style={{
-              backgroundColor: `color-mix(in srgb, ${TYPE_COLORS[team.type]} 12%, transparent)`,
-              color: TYPE_COLORS[team.type],
-            }}
-          >
-            {TYPE_LABELS[team.type]}
-          </span>
-          <span className="label">
-            {team.founded}—{team.dissolved ?? 'present'}
-          </span>
-          {isActive(team) && (
-            <span className="label inline-flex items-center gap-2">
-              <span className="dot-active" /> still playing
-            </span>
-          )}
+      {/* Title block — almanack section opener */}
+      <header className="mb-10 text-center">
+        <div className="flex justify-center mb-3">
+          <Crest size={56} color={accent} />
         </div>
-        <h2 className="font-display text-4xl md:text-5xl leading-tight">{team.name}</h2>
-        <p className="mt-3 text-[var(--color-warm-grey)]">Founded by {team.founder}.</p>
+        <p className="smallcaps" style={{ letterSpacing: '0.22em', color: accent }}>
+          {TYPE_LABELS[team.type]} · {team.founded}–{team.dissolved ?? 'present'}
+          {isActive(team) && <span className="ml-2 dot-active" />}
+        </p>
+        <h2 className="serif-display mt-2" style={{ fontSize: 'clamp(34px, 5vw, 52px)', lineHeight: 1.05, fontWeight: 500 }}>
+          <span className="italic-display" style={{ fontStyle: 'italic' }}>{team.name}</span>
+        </h2>
+        <p className="italic-display mt-3 text-[var(--color-ink-soft)]" style={{ fontStyle: 'italic' }}>
+          Founded by {team.founder}.
+        </p>
+        <div className="flex justify-center mt-5">
+          <FleuronSimple size={12} width={120} color="var(--color-ink-faint)" />
+        </div>
       </header>
 
       <div className="grid md:grid-cols-[1fr_280px] gap-12">
         <div>
-          <p className="text-[18px] leading-relaxed">{team.description}</p>
+          <p className="dropcap text-[18px] leading-relaxed">{team.description}</p>
 
           {team.links?.length > 0 && (
             <section className="mt-10">
-              <h3 className="label mb-3">Further afield</h3>
+              <h3 className="smallcaps mb-3" style={{ letterSpacing: '0.22em' }}>Further afield</h3>
               <ul className="space-y-2">
                 {team.links.map((link) => (
                   <li key={link.url}>
-                    <a
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="ext"
-                    >
+                    <a href={link.url} target="_blank" rel="noopener noreferrer" className="ext">
                       {link.label}
                     </a>
                   </li>
@@ -91,8 +84,11 @@ export default function TeamDetail() {
             </section>
           )}
 
-          <section className="mt-10">
-            <h3 className="label mb-4">The Roster · {team.members.length}</h3>
+          <section className="mt-12">
+            <div className="flex items-center justify-between mb-5">
+              <h3 className="smallcaps" style={{ letterSpacing: '0.22em' }}>The Roster · {team.members.length}</h3>
+              <FleuronSimple size={10} width={60} color="var(--color-ink-faint)" />
+            </div>
             <div className="grid gap-3 sm:grid-cols-2">
               {team.members.map((m, i) => (
                 <MemberCard key={`${m.name}-${i}`} member={m} />
@@ -101,26 +97,22 @@ export default function TeamDetail() {
           </section>
         </div>
 
-        <aside className="space-y-8">
+        <aside className="space-y-10">
           {related.length > 0 && (
             <section>
-              <h3 className="label mb-3">Connections</h3>
+              <h3 className="smallcaps mb-3" style={{ letterSpacing: '0.22em' }}>Connections</h3>
               <ul className="space-y-3">
                 {related.map((c, i) => {
                   const other = teamById(data.teams, c.otherId)
                   if (!other) return null
                   return (
                     <li key={i} className="text-[14px]">
-                      <p className="label">{CONNECTION_LABELS[c.type]}</p>
-                      <Link to={`/teams/${other.id}`} className="font-display text-lg block leading-tight">
+                      <p className="smallcaps">{CONNECTION_LABELS[c.type]}</p>
+                      <Link to={`/teams/${other.id}`} className="plain serif-display italic-display block leading-tight" style={{ fontSize: 18, fontStyle: 'italic' }}>
                         {other.name}
                       </Link>
-                      {c.label && (
-                        <p className="text-[var(--color-warm-grey)] mt-0.5">{c.label}</p>
-                      )}
-                      {c.notes && (
-                        <p className="text-[var(--color-warm-grey)] italic mt-0.5">"{c.notes}"</p>
-                      )}
+                      {c.label && <p className="text-[var(--color-ink-faint)] mt-0.5">{c.label}</p>}
+                      {c.notes && <p className="italic-display text-[var(--color-ink-faint)] mt-0.5" style={{ fontStyle: 'italic' }}>"{c.notes}"</p>}
                     </li>
                   )
                 })}
@@ -130,15 +122,13 @@ export default function TeamDetail() {
 
           {opponents.length > 0 && (
             <section>
-              <h3 className="label mb-3">Known opponents</h3>
+              <h3 className="smallcaps mb-3" style={{ letterSpacing: '0.22em' }}>Known opponents</h3>
               <ul className="space-y-1.5 text-[14px]">
                 {opponents.map((o) => (
                   <li key={o.name}>
                     <span>{o.name}</span>
                     {o.notes && (
-                      <span className="text-[var(--color-warm-grey)] block text-[12px]">
-                        {o.notes}
-                      </span>
+                      <span className="text-[var(--color-ink-faint)] block text-[12px]">{o.notes}</span>
                     )}
                   </li>
                 ))}
@@ -148,8 +138,8 @@ export default function TeamDetail() {
 
           {team.sources?.length > 0 && (
             <section>
-              <h3 className="label mb-3">Sources</h3>
-              <ul className="space-y-2 text-[13px] text-[var(--color-warm-grey)] italic">
+              <h3 className="smallcaps mb-3" style={{ letterSpacing: '0.22em' }}>Sources</h3>
+              <ul className="space-y-2 text-[13px] italic-display text-[var(--color-ink-faint)]" style={{ fontStyle: 'italic' }}>
                 {team.sources.map((s) => (
                   <li key={s}>{s}</li>
                 ))}
@@ -157,6 +147,10 @@ export default function TeamDetail() {
             </section>
           )}
         </aside>
+      </div>
+
+      <div className="flex justify-center mt-16 text-[var(--color-ink-faint)]">
+        <Fleuron size={22} color="var(--color-ink-faint)" />
       </div>
     </article>
   )

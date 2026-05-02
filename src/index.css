@@ -1,93 +1,160 @@
 @import "tailwindcss";
 
 @theme {
-  --color-cream: #FAF8F2;
-  --color-cream-deep: #F2EFE4;
-  --color-ink: #1a1a1a;
-  --color-warm-grey: #6b6357;
-  --color-warm-grey-light: #9a9388;
-  --color-rule: #d9d3c2;
-  --color-cricket-green: #2D5A3D;
-  --color-leather: #8B6914;
-  --color-pavilion-red: #8B3A3A;
-  --color-faded-navy: #2D3A5A;
+  /* ── Pavilion palette (default) — MCC-ish cream + cricket green ── */
+  --color-paper:        #F4EFE0;
+  --color-paper-deep:   #ECE4CE;
+  --color-paper-edge:   #DCD2B6;
+  --color-ink:          #1F1B14;
+  --color-ink-soft:     #443B2A;
+  --color-ink-faint:    #8A7E63;
+  --color-rule:         #B8AC8A;
+  --color-rule-hair:    #D6CBA8;
+  --color-accent:       #2F5238;     /* cricket green */
+  --color-accent-deep:  #213B28;
+  --color-secondary:    #7E1F1F;     /* pavilion red */
+  --color-leather:      #8C5A1E;
+  --color-navy:         #2A3A5C;
+  --color-green-band:   #D9E0CE;
 
-  --font-display: "Playfair Display", Georgia, serif;
-  --font-serif: "Source Serif 4", "Source Serif Pro", Georgia, serif;
-  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  /* legacy aliases (kept so any leftover `var(--color-cream)` etc. still work) */
+  --color-cream:           var(--color-paper);
+  --color-cream-deep:      var(--color-paper-deep);
+  --color-warm-grey:       var(--color-ink-soft);
+  --color-warm-grey-light: var(--color-ink-faint);
+  --color-cricket-green:   var(--color-accent);
+  --color-pavilion-red:    var(--color-secondary);
+  --color-faded-navy:      var(--color-navy);
+
+  --font-display: "Cormorant Garamond", "Libre Caslon Text", Georgia, serif;
+  --font-serif:   "Source Serif 4", "Source Serif Pro", Georgia, serif;
+  --font-italic:  "Cormorant Garamond", "Libre Caslon Text", Georgia, serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-sc:      "IM Fell English SC", "Libre Caslon Text", Georgia, serif;
 }
 
-html, body, #root {
-  height: 100%;
+[data-palette="wisden"] {
+  --color-paper:        #F2EAD0;
+  --color-paper-deep:   #E8DDB6;
+  --color-paper-edge:   #C9B775;
+  --color-ink:          #18140B;
+  --color-ink-soft:     #3B321B;
+  --color-ink-faint:    #8C7A45;
+  --color-rule:         #B89A4A;
+  --color-rule-hair:    #D9C886;
+  --color-accent:       #B8861B;
+  --color-accent-deep:  #876211;
+  --color-secondary:    #6E1B17;
+  --color-green-band:   #E8DCAA;
 }
+
+[data-palette="foxed"] {
+  --color-paper:        #EFE7D2;
+  --color-paper-deep:   #E2D7BC;
+  --color-paper-edge:   #C8B998;
+  --color-ink:          #2B2014;
+  --color-ink-soft:     #553F26;
+  --color-ink-faint:    #8B7656;
+  --color-rule:         #A89478;
+  --color-rule-hair:    #C9B697;
+  --color-accent:       #7E1F1F;
+  --color-accent-deep:  #5A1414;
+  --color-secondary:    #7E1F1F;
+  --color-green-band:   #DDD3B4;
+}
+
+html, body, #root { height: 100%; }
 
 body {
-  background-color: var(--color-cream);
+  background-color: var(--color-paper);
   color: var(--color-ink);
   font-family: var(--font-serif);
   font-size: 17px;
-  line-height: 1.65;
+  line-height: 1.62;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  /* paper foxing — subtle */
   background-image:
-    radial-gradient(rgba(139, 105, 20, 0.025) 1px, transparent 1px);
-  background-size: 3px 3px;
+    radial-gradient(rgba(80, 60, 30, 0.05) 1px, transparent 1.4px),
+    radial-gradient(rgba(120, 90, 40, 0.035) 1px, transparent 1.6px);
+  background-size: 4px 4px, 7px 7px;
+  background-position: 0 0, 2px 3px;
 }
 
+/* ── Type ── */
 h1, h2, h3, h4 {
   font-family: var(--font-display);
   font-weight: 500;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.005em;
   color: var(--color-ink);
 }
 
-a {
-  color: var(--color-cricket-green);
-  text-decoration: none;
-  border-bottom: 1px solid color-mix(in srgb, var(--color-cricket-green) 30%, transparent);
-  transition: border-color 120ms ease;
-}
+.serif-display { font-family: var(--font-display); font-weight: 500; letter-spacing: -0.005em; }
+.italic-display { font-family: var(--font-italic); font-style: italic; font-weight: 500; }
 
-a:hover {
-  border-bottom-color: var(--color-cricket-green);
-}
-
-a.plain {
-  border-bottom: none;
-}
-
-.rule {
-  border-top: 1px solid var(--color-rule);
+.smallcaps {
+  font-family: var(--font-sc);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.78em;
+  color: var(--color-ink-faint);
 }
 
 .label {
   font-family: var(--font-mono);
   font-size: 11px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--color-warm-grey);
+  color: var(--color-ink-faint);
 }
 
-.small-caps {
-  font-variant-caps: small-caps;
-  letter-spacing: 0.04em;
+/* opening drop-cap */
+.dropcap::first-letter {
+  font-family: var(--font-display);
+  float: left;
+  font-size: 4.4em;
+  line-height: 0.86;
+  padding: 0.05em 0.10em 0 0;
+  color: var(--color-accent);
+  font-weight: 600;
+  font-style: italic;
 }
+
+/* ── Links ── */
+a {
+  color: var(--color-ink);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-ink) 25%, transparent);
+  transition: border-color 120ms ease, color 120ms ease;
+}
+a:hover { border-bottom-color: var(--color-accent); color: var(--color-accent); }
+a.plain { border-bottom: none; }
+a.plain:hover { border-bottom: none; }
 
 .ext::after {
   content: " ↗";
+  color: var(--color-ink-faint);
   font-size: 0.85em;
-  color: var(--color-warm-grey);
 }
+
+/* ── Rules and ornaments ── */
+.rule       { border-top: 1px solid var(--color-rule); }
+.rule-hair  { border-top: 1px solid var(--color-rule-hair); }
+.rule-thick { border-top: 2px solid var(--color-ink); }
 
 .dot-active {
   display: inline-block;
-  width: 6px;
-  height: 6px;
+  width: 6px; height: 6px;
   border-radius: 9999px;
-  background-color: var(--color-cricket-green);
+  background-color: var(--color-accent);
   vertical-align: middle;
 }
 
-::selection {
-  background-color: color-mix(in srgb, var(--color-cricket-green) 20%, transparent);
+/* boxed scorecard panel — used on cards/asides */
+.scorecard {
+  position: relative;
+  border: 0.5px solid var(--color-rule);
+  background: color-mix(in srgb, var(--color-paper-deep) 50%, var(--color-paper));
 }
+
+::selection { background: color-mix(in srgb, var(--color-accent) 22%, transparent); }

@@ -1,9 +1,13 @@
+/* Type-color tokens — mapped to the new palette variables.
+   These reference --color-* names, so palette swaps via [data-palette]
+   automatically recolour the type badges across the site.
+*/
 export const TYPE_COLORS = {
-  writers: 'var(--color-cricket-green)',
-  theatrical: 'var(--color-pavilion-red)',
-  showbiz: 'var(--color-leather)',
-  charity: 'var(--color-faded-navy)',
-  institutional: 'var(--color-warm-grey)',
+  writers:       'var(--color-accent)',     /* cricket green */
+  theatrical:    'var(--color-secondary)',  /* pavilion red */
+  showbiz:       'var(--color-leather)',    /* leather brown */
+  charity:       'var(--color-navy)',       /* faded navy */
+  institutional: 'var(--color-ink-soft)',   /* warm grey-brown */
 }
 
 export const TYPE_LABELS = {

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import data from '../data/teams.json'
 import { teamById } from '../lib/teamHelpers.js'
+import { FleuronSimple } from './Motifs.jsx'
 
 function buildCrossovers() {
   const seen = new Map()
@@ -16,9 +17,7 @@ function buildCrossovers() {
     .map((p) => ({ ...p, teams: [...p.teams] }))
 
   const explicit = data.crossovers.map((c) => ({
-    name: c.person,
-    teams: c.teams,
-    notes: c.notes,
+    name: c.person, teams: c.teams, notes: c.notes,
   }))
 
   const merged = [...derived]
@@ -40,22 +39,25 @@ export default function Crossovers() {
 
   return (
     <section>
-      <header className="mb-10">
-        <p className="label mb-2">Crossovers</p>
-        <h2 className="text-3xl md:text-4xl font-display leading-tight">
-          The same names, again and again.
+      <header className="mb-10 text-center">
+        <span className="smallcaps" style={{ letterSpacing: '0.22em' }}>Plate the Fourth</span>
+        <h2 className="serif-display mt-2" style={{ fontSize: 'clamp(28px, 4vw, 40px)', lineHeight: 1.05, fontWeight: 500 }}>
+          The same names, <span className="italic-display" style={{ fontStyle: 'italic' }}>again and again</span>.
         </h2>
-        <p className="mt-4 text-[var(--color-warm-grey)] max-w-2xl">
-          Players who turned out for more than one of these clubs. The literary cricket world is
-          smaller than it looks.
+        <p className="italic-display mt-3 text-[var(--color-ink-soft)] max-w-xl mx-auto" style={{ fontStyle: 'italic' }}>
+          Players who turned out for more than one of these clubs.
+          The literary cricket world is smaller than it looks.
         </p>
+        <div className="flex justify-center mt-5">
+          <FleuronSimple size={12} width={120} color="var(--color-ink-faint)" />
+        </div>
       </header>
 
-      <ul className="rule pt-4 divide-y divide-[var(--color-rule)]">
+      <ul className="rule pt-4 divide-y divide-[var(--color-rule-hair)]">
         {crossovers.map((p) => (
-          <li key={p.name} className="py-4 grid sm:grid-cols-[1fr_2fr] gap-2">
+          <li key={p.name} className="py-5 grid sm:grid-cols-[1fr_2fr] gap-2">
             <div>
-              <p className="font-display text-xl leading-tight">
+              <p className="serif-display italic-display leading-tight" style={{ fontSize: 20, fontStyle: 'italic', fontWeight: 500 }}>
                 {p.wiki ? (
                   <a href={p.wiki} target="_blank" rel="noopener noreferrer" className="ext">
                     {p.name}
@@ -64,7 +66,7 @@ export default function Crossovers() {
                   p.name
                 )}
               </p>
-              <p className="label mt-1">{p.teams.length} teams</p>
+              <p className="smallcaps mt-1">{p.teams.length} teams</p>
             </div>
             <div>
               <ul className="flex flex-wrap gap-x-4 gap-y-1">
@@ -79,7 +81,7 @@ export default function Crossovers() {
                 })}
               </ul>
               {p.notes && (
-                <p className="text-[14px] text-[var(--color-warm-grey)] italic mt-2">
+                <p className="italic-display text-[14px] text-[var(--color-ink-faint)] mt-2" style={{ fontStyle: 'italic' }}>
                   {p.notes}
                 </p>
               )}
@@ -89,7 +91,7 @@ export default function Crossovers() {
       </ul>
 
       {crossovers.length === 0 && (
-        <p className="text-[var(--color-warm-grey)]">
+        <p className="text-[var(--color-ink-faint)]">
           No crossovers detected yet — research in progress.
         </p>
       )}
